@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import es.santander.ascender.ejerc002.model.Dato;
+import es.santander.ascender.ejerc002.repository.DatoRepository;
+
 @SpringBootTest
 public class DatoRepositoryTests {
     

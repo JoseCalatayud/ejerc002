@@ -1,4 +1,8 @@
-package es.santander.ascender.ejerc002;
+package es.santander.ascender.ejerc002.model;
+
+
+
+import java.io.Serializable;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,7 +12,7 @@ import jakarta.persistence.Id;
 
 @Entity //indica que corresponde con la tabla que tenemos en BBDD
 
-public class Dato {
+public class Dato implements Serializable {
 
     //Variables
     @Id
