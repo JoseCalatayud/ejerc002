@@ -15,7 +15,7 @@ public class Columna {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long id;
 
     @Max (value = 100)
     @Column(name = "numero_largo_1")
@@ -68,7 +68,7 @@ public class Columna {
     public Columna() {
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
