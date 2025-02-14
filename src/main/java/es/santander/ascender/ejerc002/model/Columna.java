@@ -24,7 +24,7 @@ public class Columna {
     @Min(value = 20)
     @Column(name = "numero_largo_2", nullable=false, unique = true)
     private Long a2;
-    private Dato d;
+    
 
     @Email
     private String email;
@@ -92,12 +92,6 @@ public class Columna {
         this.a2 = a2;
     }
 
-    public Dato getD() {
-        return d;
-    }
-
-    public void setD(Dato d) {
-        this.d = d;
-    }
+    
 
 }

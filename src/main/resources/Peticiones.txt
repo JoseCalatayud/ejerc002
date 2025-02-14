@@ -1,0 +1,22 @@
+curl -X PUT http://localhost:8080/api/columna \
+-H "Content-Type: application/json" \
+-d '{
+  "id": 1
+  "a1": 50,
+  "a2": 25,
+  "email": "calatayud@correo.com",
+  "acierto": true,
+  "equivocado": false
+}'
+
+curl -X POST http://localhost:8080/api/columna \
+-H "Content-Type: application/json" \
+-d '{
+  "a1": 50,
+  "a2": 25,
+  "email": "calatayud@correo.com",
+  "acierto": true,
+  "equivocado": false
+}'
+
+curl -X DELETE "http://localhost:8080/api/columna/id" 
